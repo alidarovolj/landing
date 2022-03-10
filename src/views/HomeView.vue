@@ -3,10 +3,10 @@
     <div class="container mx-auto">
       <div class="carousel w-full relative">
         <div class="inner_carousel relative">
-          <div class="slide w-full h-full">
+          <div class="slide first w-full h-full">
             <img class="w-full" src="../assets/1.jpg" alt="">
           </div>
-          <div class="slide active w-full h-full">
+          <div class="slide w-full h-full">
             <img class="w-full" src="../assets/1.jpg" alt="">
           </div>
           <div class="slide w-full h-full">
