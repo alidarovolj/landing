@@ -1,5 +1,34 @@
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
+
+* {
+    transition: all 0.3s;
+}
+
+.carousel {
+    .arrow_first {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(180deg);
+        left: 10px;
+        font-size: 6rem;
+        font-weight: 700;
+    }
+    .arrow_second {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10px;
+        font-size: 6rem;
+        font-weight: 700;
+    }
+    .inner_carousel {
+        display: flex;
+        .slide {
+            &.active {
+                transform: translateX(-100%);
+            }
+        }
+    }
+}
