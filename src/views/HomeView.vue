@@ -6,7 +6,7 @@
           <div class="slide w-full h-full">
             <img class="w-full" src="../assets/1.jpg" alt="">
           </div>
-          <div class="slide w-full h-full">
+          <div class="slide active w-full h-full">
             <img class="w-full" src="../assets/1.jpg" alt="">
           </div>
           <div class="slide w-full h-full">

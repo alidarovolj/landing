@@ -6,6 +6,10 @@
     transition: all 0.3s;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .carousel {
     .arrow_first {
         position: absolute;
@@ -25,9 +29,10 @@
     }
     .inner_carousel {
         display: flex;
+        width: 300%;
         .slide {
             &.active {
-                transform: translateX(-100%);
+                display: flex;
             }
         }
     }
